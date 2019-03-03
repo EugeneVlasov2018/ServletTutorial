@@ -5,4 +5,18 @@
          version="3.1">
 
     <display-name>ServletTutorial</display-name>
+    
+    <servlet>
+        <servlet-name>QuizController</servlet-name>
+        <servlet-class>controller.QuizController</servlet-class>
+        <init-param>
+            <param-name></param-name>
+            <param-value></param-value>
+        </init-param>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>QuizController</servlet-name>
+        <url-pattern>/quiz.do</url-pattern>
+    </servlet-mapping>
 </web-app>
